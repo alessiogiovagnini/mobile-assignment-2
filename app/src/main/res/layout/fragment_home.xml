@@ -61,13 +61,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="56dp"
-        android:text="@string/start_text"
-        android:textSize="20sp"
         android:backgroundTint="?attr/colorSecondaryContainer"
+        android:text="@string/start_text"
         android:textColor="?attr/colorOnSecondaryContainer"
+        android:textSize="20sp"
+        app:icon="@drawable/baseline_hiking_24"
+        app:iconSize="26dp"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/count_button"
+        android:layout_width="123dp"
+        android:layout_height="73dp"
+        android:text="@string/count_button"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
