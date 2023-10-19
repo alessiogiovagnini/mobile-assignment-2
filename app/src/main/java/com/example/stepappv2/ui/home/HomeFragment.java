@@ -15,6 +15,7 @@ import com.example.stepappv2.R;
 import com.example.stepappv2.databinding.FragmentHomeBinding;
 import com.google.android.material.progressindicator.CircularProgressIndicator;
 
+// Android documentation said to implement OnClickListener, otherwise the buttons could not refer to the methods in the fragments
 public class HomeFragment extends Fragment implements View.OnClickListener {
 
     private FragmentHomeBinding binding;
